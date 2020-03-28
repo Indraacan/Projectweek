@@ -6,12 +6,13 @@ $(document)
             autoWidth: true,
             center: true,
             nav: false,
+            margin:100
 
         });
-        $('.fa-gojek-left').click(function () {
+        $('.fa-chevron-left').click(function () {
             $('.owl-carousel').trigger('next.owl.carousel');
         });
-        $('.fa-gojek-right').click(function () {
+        $('.fa-chevron-right').click(function () {
             $('.owl-carousel').trigger('prev.owl.carousel');
         });
     });

@@ -2,232 +2,444 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="bootstrap.min.css">
-    <link
-    rel="stylesheet"
-    href="./OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
-    <link
-    rel="stylesheet"
-    href="./OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
-    <link rel="stylesheet" href="style.css">
-    <title>gojek</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>gojek</title>
 </head>
 
 <body>
-   
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" style="padding-left: 100px;">
-        <a href="index.html">
-            <image src="img/gojek.png" alt="" ; style="width: 110px; border-radius: 10px; margin-right: 15px;">
+
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" style="padding-left: 100px;">
+    <a href="index.html">
+      <image src="img/gojek.png" alt="" ; style="width: 110px; border-radius: 10px; margin-right: 15px;">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="https://www.gojek.com/about/"> About Us<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Service
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Food</a>
+            <a class="dropdown-item" href="#">Transport</a>
+            <a class="dropdown-item" href="#">Payment </a>
+            <a class="dropdown-item" href="#">News and Entertainment </a>
+          </div>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="https://www.gojek.com/blog/"> Blog<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="https://www.gojek.com/help/"> Help Center<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Join Us
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Driver</a>
+            <a class="dropdown-item" href="#">Business</a>
+            <a class="dropdown-item" href="#">Talent</a>
+
+          </div>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="https://www.gojek.com/aman/"> Safety<span class="sr-only">(current)</span></a>
+        </li>
+
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+
+        <div class="btn-group">
+          <button type="button" class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            Language
+          </button>
+          <div class="dropdown-menu dropdown-menu-right">
+            <button class="dropdown-item" type="button">English</button>
+            <button class="dropdown-item" type="button">Indonesia</button>
+            <button class="dropdown-item" type="button">Chinese</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+  </nav>
+
+  <div>
+    <image src="./img/go1.png" alt="">
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <a href="">
+          <img src="img/go2.png" class="solv" style="width: 100%;">
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="https://www.gojek.com/about/"> About Us<span
-                            class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Service
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Food</a>
-                        <a class="dropdown-item" href="#">Transport</a>
-                        <a class="dropdown-item" href="#">Payment </a>
-                        <a class="dropdown-item" href="#">News and Entertainment </a>
-                    </div>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="https://www.gojek.com/blog/"> Blog<span
-                            class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="https://www.gojek.com/help/"> Help Center<span
-                            class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Join Us
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Driver</a>
-                        <a class="dropdown-item" href="#">Business</a>
-                        <a class="dropdown-item" href="#">Talent</a>
-
-                    </div>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="https://www.gojek.com/aman/"> Safety<span
-                            class="sr-only">(current)</span></a>
-                </li>
-
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-
-                <div class="btn-group">
-                    <button type="button" class="btn btn-link dropdown-toggle" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                        Language
-                    </button>
-                    <div class="dropdown-menu dropdown-menu-right">
-                        <button class="dropdown-item" type="button">English</button>
-                        <button class="dropdown-item" type="button">Indonesia</button>
-                        <button class="dropdown-item" type="button">Chinese</button>
-                    </div>
-                </div>
-            </form>
+      </div>
+      <div class="col-md-6">
+        <br>
+        <div style="color: black;">
+          <h2> Meet Solv, Gojek's new logo</h2>
         </div>
-
-    </nav>
-
-    <div>
-        <image src="./img/go1.png" alt="">
+        <p style="text-align: left; color: black;">Our new logo symbolizes Gojek's transformation from being a
+          ride-hailing service to becoming the
+          largest Super App, with a variety of smart ways to eliminate hassles.</p>
+        <a href="" class="findout">Find out Here &rarr;</a>
+      </div>
     </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <a href="">
-                    <img src="img/go2.png" class="solv">
-                </a>
-            </div>
-            <div class="col-md-4">
-                <br>
-                <b>Meet Solv, Gojek's new logo</b>
-                <p>Our new logo symbolizes Gojek's transformation from being a ride-hailing service to becoming the
-                    largest Super App, with a variety of smart ways to eliminate hassles.</p>
-                <a href="" class="findout">Find out Here &rarr;</a>
-            </div>
-        </div>
-    </div>
+  </div>
 
 
- <div class="owl-carousel owl-theme owl-loaded">
+  <div class="owl-carousel owl-theme owl-loaded">
     <div class="owl-stage-outer">
-        <div class="owl-stage">
-            <div class="owl-item"><img src="img/firstgo.png" alt="1"></div>
-            <div class="owl-item"><img src="img/secondgo.png" alt="2"></div>
-            <div class="owl-item"><img src="img/thirdgo.png" alt="3"></div>
-            <div class="owl-item"><img src="img/1gojek.png" alt="4"></div>
-        </div>
+      <div class="owl-stage">
+        <div class="owl-item"><img src="img/firstgo.png" alt="1"></div>
+        <div class="owl-item"><img src="img/secondgo.png" alt="2"></div>
+        <div class="owl-item"><img src="img/thirdgo.png" alt="3"></div>
+        <div class="owl-item"><img src="img/1gojek.png" alt="4"></div>
+      </div>
     </div>
     <div class="owl-nav">
-        <div class="custom-nav">
-            <div class="nav-next">
-                <i class="next fa fa-gojek-left" aria-hidden="true"></i>
-            </div>
-            <div class="nav-prev">
-                <i class="next fa fa-gojek-right" aria-hidden="true"></i>
-            </div>
+      <div class="custom-nav">
+        <div class="nav-next">
+          <i class="next fa fa-chevron-left" aria-hidden="true"></i>
         </div>
+        <div class="nav-prev">
+          <i class="next fa fa-chevron-right" aria-hidden="true"></i>
+        </div>
+      </div>
     </div>
-</div>
-<br>
-<div class="container">
+  </div>
+  <div class="container">
     <h1 style="color: black;"> <b>Our Services</b> </h1>
     <br>
     <h1 style="color: black;"> <b>Transport & Logistics</b> </h1>
     <br>
-    <p style="color: black; font-size: 18px;" >Moving something (or someone) from point A to point B? Our Gojek drivers in green jackets 
-        and helmets save your time, and energy.</p>
+    <p style="color: black; font-size: 18px;">Moving something (or someone) from point A to point B? Our Gojek drivers
+      in green jackets
+      and helmets save your time, and energy.</p>
     <div class="row justify-content-between" style="margin: 10px;">
-        <div class="col-3">
-        <div class="card" style="width: 18rem;">
+      <div class="col">
+        <a href="https://www.gojek.com/goride/" tabindex="0">
+          <div class="card">
             <img src="img/goridenew.svg" class="card-img-top" alt="1">
+
             <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text text">Over 2 million drivers nationwide are ready to drive yiu safely through the
+                traffic.</p>
             </div>
           </div>
-        </div>
-        <div class="col-3">
-          <div class="card" style="width: 18rem;">
+        </a>
+      </div>
+      <div class="col">
+        <a href="https://www.gojek.com/gocar/" tabindex="0">
+          <div class="card">
             <img src="img/gocar.svg" class="card-img-top" alt="1">
             <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text text">Hundreds od thousands of drivers to drive you safely with comfort and
+                convenience.
+              </p>
             </div>
           </div>
-        </div>
-        <div class="col-3">
-          <div class="card" style="width: 18rem;">
+        </a>
+      </div>
+      <div class="col">
+        <a href="https://www.gojek.com/gosend/" tabindex="0">
+          <div class="card">
             <img src="img/gosend.svg" class="card-img-top" alt="1">
             <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text text">Fast, reliable, and convenient delivery service for your daily needs. Order
+                GoSend
+                now!</p>
             </div>
           </div>
-        </div>
-        <div class="col-3">
-          <div class="card" style="width: 18rem;">
+        </a>
+      </div>
+      <div class="col">
+        <a href="https://www.gojek.com/gosend/" tabindex="0">
+          <div class="card">
             <img src="img/gobox.svg" class="card-img-top" alt="1">
             <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text text">Moving sending items is now easy and convenient with GoBox.</p>
             </div>
           </div>
-        </div>  
+        </a>
+      </div>
     </div>
-</div>
-<div class="container">
+  </div>
+  <div class="container">
     <h1 style="color: black;"> <b>Food & FMCG</b> </h1>
     <br>
-    <p style="color: black; font-size: 18px;" >Order food from a whole lotta restaurants, 
-        get medicines delivered in a jiffy, or fill your shopping cart from many a mart.</p>
+    <p style="color: black; font-size: 18px;">Order food from a whole lotta restaurants,
+      get medicines delivered in a jiffy, or fill your shopping cart from many a mart.</p>
     <div class="row justify-content-between" style="margin: 10px;">
-        <div class="col-3">
-        <div class="card" style="width: 18rem;">
-            <img src="img/gofood.png" class="card-img-top" alt="1">
+      <div class="col-3">
+        <a href="https://www.gojek.com/gofood/" tabindex="0">
+          <div class="card">
+            <img src="https://lelogama.go-jek.com/service_icon_text/gofood_vertical.svg" class="card-img-top" alt="1">
             <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text text">The largest fod delivery service in Indonesia and Southeast Asia.</p>
             </div>
           </div>
-        </div>
-        <div class="col-3">
-          <div class="card" style="width: 18rem;">
-            <img src="img/gofes.png" class="card-img-top" alt="1">
+        </a>
+      </div>
+      <div class="col-3">
+        <a href="https://www.gojek.com/gofoodfestival/" tabindex="0">
+          <div class="card">
+            <img src="https://lelogama.go-jek.com/service_icon_text/gff.svg" class="card-img-top" alt="1">
             <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text text">Enjoy a variety of favorite cuisine consisting foods, beverage, traditional
+                snacks, trending snacks & exciting events at the GoFood Culinary Festival </p>
             </div>
           </div>
-        </div>
-        <div class="col-3">
-          <div class="card" style="width: 18rem;">
+        </a>
+      </div>
+      <div class="col-3">
+        <a href="https://www.gojek.com/gomed/" tabindex="0">
+          <div class="card">
             <img src="img/gomed.svg" class="card-img-top" alt="1">
             <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text text">Use GoMed for all your medical needs. Buy medicines, vitamins, etc from licensed
+                pharmacies.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-3">
+        <div class="card">
+          <img src="img/gomart.svg" class="card-img-top" alt="1">
+          <div class="card-body">
+            <p class="card-text text">We are here to give you the easiest online shopping experience..</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h1 style="color: black;"> <b>Payments</b> </h1>
+    <div class="owl-nav">
+        <div class="custom-1-nav">
+          <i class="next fa fa-chevron-left" aria-hidden="true"></i>
+          <i class="next fa fa-chevron-right" aria-hidden="true"></i>
+        </div>
+      </div>
+      <br>
+      <p style="color: black; font-size: 18px;">From split the bills to donations, we make payments reliable,
+        easy and delightful for our customers and merchants alike.</p>
+
+    <!-- <div class="owl-carousel owl-theme owl-loaded">
+          <div class="owl-stage-outer">
+            <div class="owl-stage"> -->
+              <div class="row justify-content-between">
+              <div class="col-3">
+                <div class="card">
+                  <img src="https://lelogama.go-jek.com/service_icon_text/gopay_vertical.svg" class="card-img-top"
+                    alt="1">
+                  <div class="card-body">
+                    <p class="card-text text">Your digital wallet for hassle-free everyday transaction</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card">
+                  <img src="https://lelogama.go-jek.com/service_icon_text/gobillsvertical.svg" class="card-img-top"
+                    alt="1">
+                  <div class="card-body">
+                    <p class="card-text text">Bayar tagihan online di GoBills: token listrik PLN, BPJS, PDAM, gas PGN,
+                      tv
+                      kabel berlangganan, internet, asuransi, PBB, PKB, Pajak Daerah, dan lainnya </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+    <!-- <div class="container">     
+      
+  
+        
+              <div class="col-3">
+                <div class="card">
+                  <img src="https://lelogama.go-jek.com/service_icon_text/gopoints_vertical.svg" class="card-img-top"
+                    alt="1">
+                  <div class="card-body">
+                    <p class="card-text text">Recieve a token for each transaction, swip them to earn points, and get
+                      amazing
+                      rewards.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card">
+                  <img src="https://lelogama.go-jek.com/service_icon_text/paylater_vertical.svg" class="card-img-top"
+                    alt="1">
+                  <div class="card-body">
+                    <p class="card-text text">Order any Gojek service or from any Gojek partner and pay at the end of
+                      the
+                      month with PayLater.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card">
+                  <img src="https://lelogama.go-jek.com/service_icon_text/gopulsa_vertical.svg" class="card-img-top"
+                    alt="1">
+                  <div class="card-body">
+                    <p class="card-text text">It's now easier to top up your phone credit and buy a data package with
+                      GoPulsa.
+                      Just use GoPay in the Gojek app.</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-3">
-          <div class="card" style="width: 18rem;">
-            <img src="img/gomart.svg" class="card-img-top" alt="1">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div> -->
+      <div class="container">
+        <h1 style="color: black;"> <b>Daily Needs</b> </h1>
+        <br>
+        <p style="color: black; font-size: 18px;">Those regular chores that call for your attention?
+          We have all products under daily needs to make your life simpler and hassle-free.</p>
+        <div class="row justify-content-start" style="margin: 10px;">
+          <div class="col-3">
+            <div class="card">
+              <img src="https://lelogama.go-jek.com/service_icon_text/golife_vertical.svg" class="card-img-top" alt="1">
+              <div class="card-body">
+                <p class="card-text text">One app for your every service needs, form relaxing message, therapy, to home
+                  maintenance services!</p>
+              </div>
             </div>
           </div>
-        </div>  
-    </div>
-</div>
+          <div class="col-3">
+            <div class="card">
+              <img src="https://lelogama.go-jek.com/service_icon_text/gomassage_vertical.svg" class="card-img-top"
+                alt="1">
+              <div class="card-body">
+                <p class="card-text text">Relaxation made simple, get a massage without having to go out </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card">
+              <img src="https://lelogama.go-jek.com/service_icon_text/goclean_vertical.svg" class="card-img-top"
+                alt="1">
+              <div class="card-body">
+                <p class="card-text text">A practically way for a clean home, from bathroom to kitchen area.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <h1 style="color: black;"> <b>News & Entertainment</b> </h1>
+          <br>
+          <p style="color: black; font-size: 18px;">Binge on your favourite series, book tickets to the next concert,
+            organise celebrity events, and do much more. All your treasured digital content belong here.</p>
+          <div class="row justify-content-start" style="margin: 10px;">
+            <div class="col-3">
+              <a href="https://www.gojek.com/goplay/" tabindex="0">
+                <div class="card">
+                  <img src="https://lelogama.go-jek.com/service_icon_text/goplay_vertical.svg" class="card-img-top"
+                    alt="1">
+                  <div class="card-body">
+                    <p class="card-text text">One app for your every service needs, form relaxing message, therapy, to
+                      home maintenance services!</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-3">
+              <div class="card">
+                <img src="https://lelogama.go-jek.com/service_icon_text/gotix_vertical.svg" class="card-img-top"
+                  alt="1">
+                <div class="card-body">
+                  <p class="card-text text">Relaxation made simple, get a massage without having to go out </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <h1 style="color: black;"> <b>Business</b> </h1>
+            <br>
+            <p style="color: black; font-size: 18px;">Your business partner.</p>
+            <div class="row justify-content-start" style="margin: 10px;">
+              <div class="col-3">
+                <div class="card">
+                  <img src="https://lelogama.go-jek.com/service_icon_text/gobiz_vertical.svg" class="card-img-top"
+                    alt="1">
+                  <div class="card-body">
+                    <p class="card-text text">One app for your every service needs, form relaxing message, therapy, to
+                      home
+                      maintenance services!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container footer">
+            <section class="footer">
+              <br>
+              <div class="row">
+                <div class="col-md-2">
+                  <img src="./img/gojek.png" alt="1" style="width: 150px;">
+                </div>
+
+                <div class="col-md-2">
+                  <ul type="none">
+                    <li><a href="about.html" class="linkfooter">About Us</a></li>
+                    <li><a href="" class="linkfooter">Blog</a></li>
+                    <li><a href="" class="linkfooter">Services</a></li>
+                    <li><a href="" class="linkfooter">Careers</a></li>
+                    <li><a href="" class="linkfooter">Media Centre</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-2">
+                  <ul type="none">
+                    <li><a href="" class="linkfooter">Help Centre</a></li>
+                    <li><a href="" class="linkfooter">Contact Us</a></li>
+                    <li><a href="" class="linkfooter">Driver Help Centre</a></li>
+                    <li><a href="" class="linkfooter">Terms & Conditions</a></li>
+                    <li><a href="" class="linkfooter">Privacy Policy</a></li>
+                  </ul>
+                </div>
+              </div>
+              <hr>
+              <h5 style="text-align: center;">&copy; 2020 Gojek</h5>
+              <p class="textfoot">Gojek is a trademark of PT Aplikasi Karya Anak Bangsa. Registered in the Directorate
+                General of Intellectual Property of the Republic of Indonesia.</p>
 
 
-  
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-    </script>
-    <script src="./OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
-    <script src="index.js"></script>
+            </section>
+          </div>
+
+
+
+          <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+          </script>
+          <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+          </script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+          </script>
+          <script src="./OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+          <script src="index.js"></script>
 
 </body>
 
