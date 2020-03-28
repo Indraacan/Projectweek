@@ -96,3 +96,10 @@
     right: 0;
     z-index: 100;
 }
+.footer {
+    background-color:rgb(27, 25, 25);
+    left: 0;
+    bottom: 0;
+    /* width: 100%; */
+       
+ }
